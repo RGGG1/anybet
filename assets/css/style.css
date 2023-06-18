@@ -24,11 +24,11 @@ body {
       
 
 
-      .login-box {
+      .bet-box {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 400px;
+        width: 800px;
         padding: 40px;
         transform: translate(-50%, -50%);
         background: rgba(0,0,0,.5);
@@ -39,17 +39,19 @@ body {
       }
       
            
-      .login-box .user-box {
+      .bet-box .user-box {
         position: relative;
         text-align: center;
       }
 
-      .login-box .user-box2 {
+     
+
+      .bet-box .user-box2 {
         position: relative;
         text-align: center;
       }
       
-      .login-box .user-box input {
+      .bet-box .user-box input {
         width: 100%;
         padding: 10px 0;
         font-size: 50px;
@@ -60,9 +62,10 @@ body {
         outline: none;
         background: transparent;
         text-align: center;
+        
       }
 
-      .login-box .user-box2 input {
+      .bet-box .user-box2 input {
         width: 100%;
         padding: 10px 0;
         font-size: 120px;
@@ -75,7 +78,7 @@ body {
         text-align: center;
       }
 
-      .login-box .user-box label {
+      .bet-box .user-box label {
         position: absolute;
         top:0;
         left: 0;
@@ -86,7 +89,7 @@ body {
         transition: .5s;
       }
 
-      .login-box .user-box2 label {
+      .bet-box .user-box2 label {
         position: absolute;
         top:0;
         left: 0;
@@ -97,23 +100,23 @@ body {
         transition: .5s;
       }
       
-      .login-box .user-box input:focus ~ label,
-      .login-box .user-box input:valid ~ label {
+      .bet-box .user-box input:focus ~ label,
+      .bet-box .user-box input:valid ~ label {
         top: -20px;
         left: 0;
         color: white;
         font-size: 24px;
       }
 
-      .login-box .user-box2 input:focus ~ label,
-      .login-box .user-box2 input:valid ~ label {
+      .bet-box .user-box2 input:focus ~ label,
+      .bet-box .user-box2 input:valid ~ label {
         top: -20px;
         left: 0;
         color: white;
         font-size: 24px;
       }
       
-      .login-box form a {
+      .bet-box form a {
         position: relative;
         display: inline-block;
         padding: 10px 20px;
@@ -127,9 +130,9 @@ body {
         letter-spacing: 4px
       }
       
-      .login-box a:hover {
+      .bet-box a:hover {
         background: white;
-        color: #fff;
+        color: black;
         border-radius: 5px;
         box-shadow: 0 0 5px white,
                     0 0 25px white,
@@ -137,12 +140,12 @@ body {
                     0 0 100px white;
       }
       
-      .login-box a span {
+      .bet-box a span {
         position: absolute;
         display: block;
       }
       
-      .login-box a span:nth-child(1) {
+      .bet-box a span:nth-child(1) {
         top: 0;
         left: -100%;
         width: 100%;
@@ -160,7 +163,7 @@ body {
         }
       }
       
-      .login-box a span:nth-child(2) {
+      .bet-box a span:nth-child(2) {
         top: -100%;
         right: 0;
         width: 2px;
@@ -179,7 +182,7 @@ body {
         }
       }
       
-      .login-box a span:nth-child(3) {
+      .bet-box a span:nth-child(3) {
         bottom: 0;
         right: -100%;
         width: 100%;
@@ -198,7 +201,7 @@ body {
         }
       }
       
-      .login-box a span:nth-child(4) {
+      .bet-box a span:nth-child(4) {
         bottom: -100%;
         left: 0;
         width: 2px;
@@ -226,4 +229,9 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+
+#win, #lose {
+    font-size: 175px;
 }
