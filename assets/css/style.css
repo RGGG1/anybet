@@ -37,6 +37,10 @@ body {
         border-radius: 10px;
         text-align: center;
       }
+
+      ::placeholder {
+        color: lightgray;
+      }
       
            
       .bet-box .user-box {
